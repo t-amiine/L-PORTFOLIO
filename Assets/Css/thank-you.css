@@ -1,11 +1,11 @@
 #thanks {
-    height: 300px;
+    height: auto;
     background-color: #eaeaea;
     margin-top: 100px;
 }
 .container {
-    height: 300px;
-    padding: 50px ;
+
+    padding: 50px 0 80px 0 ;
 }
 #thanks h3 {
     margin-top: 20px;
