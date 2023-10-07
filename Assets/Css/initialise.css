@@ -26,7 +26,32 @@ a {text-decoration: none;}
     display: flex;
     justify-content: space-between;
 }
-/* SPECIAL BUTTON CODE  */ 
+
+/* HEADER SECTION ====================== */ 
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #eaeaea;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-bottom: 3px solid #000;
+}
+header .container {
+    height: 80px;
+    display: flex;
+}
+header a {
+    padding: 10px 15px;
+    margin: 0 5px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+a:hover {color: rgb(15, 15, 180);}
+
+/* SPECIAL BUTTON CODE  ====================== */ 
 .sp-button,
 .sp-button-rev{
     padding: 8px 25px;
