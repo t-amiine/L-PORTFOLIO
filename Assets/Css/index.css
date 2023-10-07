@@ -1,0 +1,169 @@
+/* HEADER SECTION ====================== */ 
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #eaeaea;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-bottom: 3px solid #000;
+}
+header .container {
+    height: 80px;
+    display: flex;
+}
+header a {
+    padding: 10px 15px;
+    margin: 0 5px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+a:hover {color: rgb(15, 15, 180);}
+
+/* HERO SECTION ====================== */ 
+.hero {height: 190px; margin-top: 200px;}
+.h-First h1, 
+.h-First h3 {
+    font-size: 50px;
+    font-weight: 900;
+}
+.h-First h3 {
+    font-size: 25px;
+}
+.h-Second p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+/* SKILLS SECTION ====================== */
+#Skills {
+   width: 100%;
+}
+
+#Skills .skill-details {
+    width: 350px;
+    height: 100px;
+    background-color: #eaeaea;
+    justify-content: space-around;
+    align-items: center;
+}
+/* PROJECTS SECTION ====================== */ 
+.p-Head {height: 50px; align-items: center;}
+.pHead h1 {font-size: 30px;}
+#Projects .P-Body {margin-top: 20px;}
+.proj-details{
+    width: 45%;
+    background-color: #eaeaea;
+    padding: 20px 15px;
+    align-items: center;
+}
+.proj-details p,
+.last-project p {
+    font-weight: 500;
+}
+.last-project {
+    background-color: #eaeaea;
+    align-items: center;
+    padding: 20px 15px;
+    margin: 20px 0 0 0 ;
+}
+/* BLOG SECTION ====================== */
+
+.p-Body .article {
+    width: 45%; 
+    margin-top: 20px;
+    background-color: #eaeaea;
+}
+.p-Body .article .article-info {padding: 20px 15px;}
+.p-Body .article .article-info p {
+    font-weight: 600;
+    margin: 8px 0;
+}
+.p-Body .article .article-info span {
+    color: #ffffff;
+    background-color: #000000;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+/* ABOUT ME SECTION ====================== */
+#AboutMe {
+    background-color: #000000;
+    padding: 35px 0;
+    height: auto;
+}
+#AboutMe .container {
+    font-weight: 700;
+    font-size: 19px;
+    color: #ffffff;
+}
+/* CONTACT SECTION ====================== */
+#ContactMe {background-color: #eaeaea; padding: 60px 0;}
+.social-links {
+    background-color: #f5f5f5;
+    width: 20%;
+    height: 100px;
+}
+.social-links i {color: #000000; font-size: 30px; margin: 10px 25px 0 0;}
+.social {padding: 15px;}    
+.contact-form {width: 70%; background-color: #f5f5f5; padding: 20px 30px;}
+input, textarea {
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+    margin-left: 20px;
+    outline: 0;
+    font-size: 18px;
+}
+textarea {height: 80px; margin-top: 10px; width: 95%;}
+.f-row div {width: 45%;}
+.f-row input {width: 70%;}
+.email-input input{ width: 95%;}
+.contact-form .brd {
+    background-color: #f5f5f5;
+    margin: 0 0 20px 0;
+    border: 3.5px solid #000000;
+}
+.brd span{
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #000000;
+    padding: 5px 15px;
+    margin: 0 0 0 5px;
+    font-weight: 600;
+}
+.terms input {
+    margin: 0;
+    margin: 0 10px 0 0;
+}
+.pr-term {
+    display: flex;
+    align-items: center;
+}
+.terms label {
+    font-size: 18px;
+    font-weight: 600;
+}
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #000000;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+/* FOOTER SECTION ====================== */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+
